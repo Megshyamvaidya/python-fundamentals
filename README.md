@@ -3,7 +3,8 @@
 My day-by-day Python practice as part of a 90-day journey to become an AI Engineer.
 
 ## Topics Covered
-- Day 1: OOP — Classes, Inheritance, super(), __str__
+- Day 1: OOP — Classes, Objects, Inheritance, super(), __str__
+- Day 2: Encapsulation, @property, @balance.setter, @classmethod, @staticmethod
 
 ## Stack
 - Python 3.x
