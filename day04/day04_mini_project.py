@@ -6,8 +6,7 @@ def register_user(name,email,password):
             users=json.load(f)
     else:
         users=[]
-    with open("users.json",'w')as f:
-        json.dump(users,f,indent=4)
+    
     
     for user in users:
         if user['email']==email:
@@ -37,7 +36,7 @@ def find_user(email):
         found=False
         for user in users:
             if user['email']==email:
-                print(f"Name:{user["name"]}Email:{user['email']}")
+                print(f"Name:{user["name"]}|Email:{user['email']}")
                 found=True
                 break
         if not found:
