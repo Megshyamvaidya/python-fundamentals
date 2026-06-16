@@ -8,7 +8,7 @@ My day-by-day Python practice as part of a 90-day journey to become an AI Engine
 - Day 3: Error Handling — try/except/finally, custom exceptions
 - Day 4: File I/O — read/write/append, JSON dump/load, User Registration System
 - Day 5: List Comprehensions, Lambda, map(), filter()
-
+- Day 6: Modules, import, from-import, __name__ == "__main__", custom modules
 ## Stack
 - Python 3.x
 
